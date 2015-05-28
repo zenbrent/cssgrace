@@ -1,0 +1,10 @@
+.foo {
+  background: url(../img/not-a-real-image.jpg);
+  border-image: url(../this/isnt-real.png);
+  width: 100px;
+  height: 100px;
+}
+
+.bar {
+  background: url("http://www.some-website.com/pic.png");
+}

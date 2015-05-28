@@ -84,6 +84,11 @@ test('image-size-multiple', function(t) {
   t.end()
 })
 
+test('image-size-not-applicable', function(t) {
+  compareFixtures(t, 'image-no-size', 'Should ignore images without image-width or image-height')
+  t.end()
+})
+
 test('base64-image-size', function (t) {
   compareFixtures(t, 'base64-image-size', 'Should be transform')
   t.end();
